@@ -1,0 +1,142 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+@font-face {
+  font-family: 'mont';
+  src: url('../views/img/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+* {
+  font-family: 'mont';
+}
+h1 {
+  font-size: 20px;
+  color: #f1d883;
+}
+.content {
+  background-color: #fcf4d9;
+  border-radius: 60px;
+  margin-top: 2%;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.logoHeader {
+  background-color: #40444c;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#appLogo {
+  width: 30%;
+  text-align: center;
+}
+p,
+#location,
+#startDate,
+#endDate,
+#subBttn {
+  color: #40444c;
+}
+@media (min-width: 1200px) {
+  .inputForms,
+  .secondContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    background-color: #fcf4d9;
+    border-radius: 60px;
+    width: 50%;
+    margin-top: 2%;
+    height: 80%;
+
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+  }
+}
+@media (max-width: 1200px) {
+  #results {
+    font-size: 10px;
+  }
+  #destinationImage {
+    width: 300px;
+  }
+}
+@media (max-width: 800px) {
+  #results {
+    font-size: 10px;
+  }
+  #destinationImage {
+    width: 220px;
+  }
+}
+.inputFormT {
+  padding: 3% 5% 3% 5%;
+}
+
+.inputFormT p {
+  padding: 3% 0% 3% 0%;
+}
+
+.round {
+  border-radius: 60px;
+  height: 30px;
+  width: 200px;
+  background-color: #fcf4d9;
+  border: 2px solid #40444c;
+}
+input:hover[type='text'],
+input:hover[type='date'] {
+  background-color: #f1d883;
+}
+#subBttn {
+  border-radius: 60px;
+  background-color: #40444c;
+  height: 36px;
+  width: 200px;
+}
+#subBttn {
+  color: #fcf4d9;
+  border: 1px solid #40444c;
+}
+
+#results {
+  border-radius: 100px;
+  padding: 3%;
+  margin: 2% 10%;
+  color: #40444c;
+  text-align: center;
+  line-height: 1.6;
+  background-color: #f1d883;
+}
+#startDate {
+  margin-bottom: 6px;
+}
+#credits {
+  padding: 2%;
+  font-size: 10px;
+}
+#destinationImage {
+  border-radius: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+a {
+  all: unset;
+}
+
+@media (max-width: 1200px) {
+} ;
