@@ -18,3 +18,6 @@ Folder sttucture:__test__, .babelrc,.env, src folder,.gitignore, package.json, p
 Resources:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 Udacity
+Geonames API
+Weatherbit API
+Pixabay API
