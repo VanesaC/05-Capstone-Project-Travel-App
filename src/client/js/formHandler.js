@@ -20,7 +20,7 @@ const updateUI3 = async () => {
     document.getElementById('temperature').innerHTML =
       'The temperature forecast is ' +
       allData.weather.data['0'].temp +
-      ' degrees.';
+      '°C degrees.';
     document.getElementById('precip').innerHTML =
       'The precipitation estimation is ' +
       allData.weather.data['0'].precip +

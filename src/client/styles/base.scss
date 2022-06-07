@@ -10,23 +10,11 @@
 * {
   font-family: 'mont';
 }
-h1 {
-  font-size: 20px;
-  color: #f1d883;
-}
-.content {
-  background-color: #fcf4d9;
-  border-radius: 60px;
-  margin-top: 2%;
 
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: center;
-}
 .logoHeader {
   background-color: #40444c;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
+  // border-top-left-radius: 60px;
+  // border-top-right-radius: 60px;
   height: 90px;
   display: flex;
   justify-content: center;
@@ -43,6 +31,7 @@ p,
 #subBttn {
   color: #40444c;
 }
+// -----------------------------------------------------DESKTOP
 @media (min-width: 1200px) {
   .inputForms,
   .secondContainer {
@@ -61,21 +50,80 @@ p,
     margin-right: 25%;
     text-align: center;
   }
+  h1 {
+    font-size: 20px;
+    color: #f1d883;
+  }
+  #credits {
+    padding: 2%;
+    font-size: 10px;
+  }
+  #subBttn {
+    border-radius: 60px;
+    background-color: #40444c;
+    height: 36px;
+    width: 200px;
+  }
+  .round {
+    border-radius: 60px;
+    height: 30px;
+    width: 200px;
+    background-color: #fcf4d9;
+    border: 2px solid #40444c;
+  }
+  .logoHeader {
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+  }
 }
+// -----------------------------------------------------MOBILE AND TABLET
 @media (max-width: 1200px) {
   #results {
     font-size: 10px;
   }
   #destinationImage {
+    width: 500px;
+  }
+  .content {
+    text-align: center;
+  }
+  body {
+    background-color: #fcf4d9;
+  }
+  h1 {
+    font-size: 25px;
+    color: #f1d883;
+  }
+  p {
+    font-size: 20px;
+  }
+  #credits {
+    padding: 2%;
+    font-size: 15px;
+  }
+  #subBttn {
+    border-radius: 60px;
+    background-color: #40444c;
+    height: 40px;
     width: 300px;
+    font-size: 15px;
+  }
+  .round {
+    border-radius: 60px;
+    height: 40px;
+    width: 300px;
+    background-color: #fcf4d9;
+    border: 2px solid #40444c;
+    font-size: 15px;
   }
 }
+// -----------------------------------------------------MOBILE
 @media (max-width: 800px) {
   #results {
     font-size: 10px;
   }
   #destinationImage {
-    width: 220px;
+    width: 320px;
   }
 }
 .inputFormT {
@@ -86,23 +134,11 @@ p,
   padding: 3% 0% 3% 0%;
 }
 
-.round {
-  border-radius: 60px;
-  height: 30px;
-  width: 200px;
-  background-color: #fcf4d9;
-  border: 2px solid #40444c;
-}
 input:hover[type='text'],
 input:hover[type='date'] {
   background-color: #f1d883;
 }
-#subBttn {
-  border-radius: 60px;
-  background-color: #40444c;
-  height: 36px;
-  width: 200px;
-}
+
 #subBttn {
   color: #fcf4d9;
   border: 1px solid #40444c;
@@ -120,10 +156,7 @@ input:hover[type='date'] {
 #startDate {
   margin-bottom: 6px;
 }
-#credits {
-  padding: 2%;
-  font-size: 10px;
-}
+
 #destinationImage {
   border-radius: 100%;
 }
@@ -137,6 +170,3 @@ a:visited {
 a {
   all: unset;
 }
-
-@media (max-width: 1200px) {
-} ;
