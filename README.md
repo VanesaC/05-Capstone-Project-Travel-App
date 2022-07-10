@@ -1,9 +1,9 @@
-# FEND Capstone Project: Travel App
+# Capstone Project: Travel App
  
 ## Overview
-This project includes a form where the user enters the location where he/she is traveling to and the date she/he is leaving. 
+This project is a travel app that obtains a desired trip location and date from the user and displays weather, length of trip and an image of the location using information obtained from external APIs(Geonames API, Weatherbit API, Pixabay API). 
 If the trip is within a week, the user gets the current weather forecast. If the trip is in the future, the user will get a predicted forecast.
-Besides that, the user also gets the remaining days until the vacation and vacation length. 
+In case that the entered location brings up no results the app will pull in an image for the country. 
 
 ## Instructions
 In order to test the project, here's what you have to do:
